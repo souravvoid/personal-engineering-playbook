@@ -59,11 +59,10 @@ Choose between 21st.dev, shadcn/ui, and GitHub starter templates based on the ta
 
 - **21st.dev:** use for individual polished UI components or visual patterns when the component's source, license, dependencies, accessibility, and maintenance status are acceptable. Treat generated/copied components as code to inspect and test, not as trusted black boxes.
 - **shadcn/ui:** use when the project needs a consistent, composable component foundation with source code owned by the project. Check current installation instructions and compatibility with the project's React, Tailwind, and build-tool versions.
-- **GitHub templates/starters:** use when a repository-level foundation saves meaningful setup time. Inspect its license, activity, dependency versions, scripts, security posture, and unnecessary features before adopting it.
+- **GitHub templates/starters:** use when a repository-level foundation saves meaningful setup time. For full-stack web apps, consider `git@github.com:fastapi/full-stack-fastapi-template.git` as a starting point, then inspect its license, activity, dependency versions, scripts, security posture, and unnecessary features before adopting it.
 - Do not combine libraries just because they are available. Avoid duplicate component systems, conflicting styling approaches, and unnecessary dependencies.
 - Keep visual design coherent. Establish tokens for color, typography, spacing, radii, elevation, and breakpoints before building many screens.
 - Never copy a template without understanding its structure and removing unused demo code.
-
 When a source or package is not available to inspect, say so and ask for access or provide a cautious recommendation rather than pretending it was verified.
 
 ## 4. Project workflow and approval gates
